@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Learning</title>
+	<style>
+		body
+		{
+			border:0;
+			margin:0;
+			padding:0;
+		}
+		.one
+		{
+			border-top:6px solid black;
+			background:#345673;
+           background:radial-gradient(#648880,#293f50);
+			
+		}
+		header
+		{   margin:20px;
+			color:gray;
+			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+			font-size: 44px;
+			float:left;
+			font-weight:500;
+			text-shadow: 3px 4px 5px rgba(160,100,80,.4);
+		}
+		aside
+		{   margin:20px;
+			float:right;
+			font-size:22px;
+			color:gray;
+			font-size:18px;
+			word-spacing:3px;
+
+		}
+		aside h4
+		{
+			font-size:22px;
+		}
+		aside a
+		{  
+			border:1px solid black;
+			padding:4px;
+			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+			background:#345673;
+           background:radial-gradient(#648880,#293f50);
+           color:black;
+           font-weight:bold;
+           text-transform:uppercase;
+		}
+
+		section
+		{   clear:both;
+			padding:10px;
+			height:160px;
+			font-size:20px;
+			text-align:center;
+			background:radial-gradient(#BDFCD3,#9AE3A2,#58825D);
+			color:gray;
+			line-height:30px;
+			word-spacing: 3px;
+
+
+		}
+		section h2
+		{
+			color:#648880;
+			font-family:"Garamond",Arial,sans-serif;
+			font-size:30px;
+		}
+
+		.two
+		{
+			float:left;
+		    padding-left:100px;
+			margin:10px;
+			width:40%;
+			color:gray;
+			font-size:16px;
+			word-spacing: 2px;
+			font-family:"Segoe Print",Arial,sans-serif;
+		}
+		.two h3,.two h4
+		{
+			font-family:"Footlight MT",Arial,sans-serif;
+			font-weight:bold;
+			text-transform:capitalize;
+			font-size:22px;
+		}
+		.two h4
+		{
+			font-size:20px;
+		}
+		li
+		{   list-style-type:none;
+			background:url("arr.png");
+			background-repeat:no-repeat;
+			background-size:13px 13px;
+			background-position:0 40%;
+			padding-left:20px;
+			
+
+		}
+		.fill
+		{
+			float:right;
+			margin-right:300px;
+			margin-top:50px;
+			font-weight:bold;
+			color:#648880;
+			font-size:22px;
+		}
+		button
+		{
+			float:center;
+			height:40px;
+			width:180px;
+			background:#648880;
+			color:white;
+			font-size:20px;
+			border:3px solid gray;
+			font-weight:bold;
+
+		}
+		.dec
+		{
+			border:1px solid gray;
+			border-radius:6px;
+			height:40px;
+			width:300px;
+
+		}
+		textarea
+		{
+			border:1px solid gray;
+			border-radius:6px;
+			height:100px;
+			width:300px;
+		}
+		.opt
+		{
+			height:30px;
+			width:70px;
+			text-align:center;
+		}
+
+		.end
+		{   clear:both;
+			height:100px;
+		
+			background:#345673;
+           background:radial-gradient(#648880,#293f50);
+
+		}
+
+		.in
+		{   clear:both;
+			color:white;
+			float:left;
+			font-size: 16px;
+			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+			margin-top:40px;
+		
+
+		}
+
+		.outer a
+		{   border:3px solid gray;
+			color:white;
+			float:right;
+			font-weight:bold;
+			font-variant: small-caps;
+			word-spacing: 2px;
+			font-family:"Lucida Bright",Arial,sans-serif;
+			margin-top:40px;
+			font-size:18px;
+			padding:5px;
+			margin-right:20px;
+			
+		}
+
+	</style>
+</head>
+<body id="top">
+	<div class="one">
+	<header>STYLES</br>CONFERENCE</header>
+	
+	<aside>
+		<h4>August 24th-26th,Chicago</h4>
+<span><a href="h.html">Home</a></span><span><a href="s.html">Speakers</a></span><span><a href="sch.html">Schedule</a></span><span><a href="v.html">Venue</a></span><span><a href="r.html">Register</a></span>
+	</aside>
+    
+   <section>
+   	<h2>Register</h2>
+   Every year, we aim to have an unbelievable time, and this year we'd love it for you to join us.</br>
+   Conference passes only cost $99, one of the best values you'll find.
+  </section>
+
+</div>
+
+ <div class="two">
+ 	<h3>Purchase a Conference Pass</h3>
+ 	<h4>$99 PER PASS</h4>
+ 	<p>Purchase your Styles Conference pass using the form to the right. Multiple passes may be purchased within the same order, so feel free to bring a friend or two along. Once your order is finished we’ll follow up and provide a receipt for your purchase. See you soon!
+</p>
+   <h3>Why Attend?</h3>
+   <ul>
+   <li>Over twenty world-class speakers</li>
+    <li>One full day of workshops and two full days of presentations</li>
+    <li>Hosted at The Chicago Theatre, a historical landmark</li>
+    <li>August in Chicago is simply amazing</li>
+</ul>
+</div>
+
+<div class="fill">
+	<form action="\login" method="post">
+		<label>Name</label></br>
+		<input type="text" name="Name" required class="dec"></br></br>
+		<label>Email</label></br>
+		<input type="email" name="email" required class="dec"></br></br>
+		<label>Number of passes</label></br>
+		<select name="count" class="opt">
+			<option value="1" selected>1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+		</select>
+		</br></br>
+		<label>Comments</label></br>
+		<textarea name="comments" ></textarea>
+		</br></br>
+		<button name="submit">
+			PURCHASE
+		</button>
+	
+	</form>
+</br>
+</br>
+</br>
+
+
+</div>
+
+<div class="end">
+
+<footer class="in">
+	   ©Styles Conference
+	 </footer>
+
+	  <footer class="outer">
+	 	
+
+	 	<a href="#top">Back to top</a>
+	 </footer>
+
+</div>
+
+</body>
+</html>
